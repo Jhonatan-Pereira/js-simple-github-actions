@@ -1,0 +1,10 @@
+{
+    "name": "simple-date-fns",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "date-fns": "^3.6.0"
+    }
+}
