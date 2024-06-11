@@ -1,4 +1,11 @@
-on: push
+name: Main
+on: 
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
 jobs:
     build-node:
         runs-on: ubuntu-latest
